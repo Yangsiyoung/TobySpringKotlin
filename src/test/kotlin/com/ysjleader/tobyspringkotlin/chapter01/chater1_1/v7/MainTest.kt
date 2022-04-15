@@ -2,7 +2,6 @@ package com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7
 
 import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.dto.UserDTO
 import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7.factory.ProfileUserServiceFactory
-import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7.factory.UserServiceFactory
 import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7.user.UserService
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

@@ -3,7 +3,6 @@ package com.ysjleader.tobyspringkotlin.chapter02.fake
 import com.ysjleader.tobyspringkotlin.chapter02.fake.domain.User
 import com.ysjleader.tobyspringkotlin.chapter02.fake.repository.impl.FakeUserRepository
 import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 class DiaryServiceTest {

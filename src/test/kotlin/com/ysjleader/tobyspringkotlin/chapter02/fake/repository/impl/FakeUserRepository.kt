@@ -2,7 +2,6 @@ package com.ysjleader.tobyspringkotlin.chapter02.fake.repository.impl
 
 import com.ysjleader.tobyspringkotlin.chapter02.fake.domain.User
 import com.ysjleader.tobyspringkotlin.chapter02.fake.repository.UserRepository
-import java.lang.IllegalArgumentException
 
 class FakeUserRepository: UserRepository {
 

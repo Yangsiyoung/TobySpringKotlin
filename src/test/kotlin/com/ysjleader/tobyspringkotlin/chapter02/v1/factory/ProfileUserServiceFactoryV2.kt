@@ -3,11 +3,9 @@ package com.ysjleader.tobyspringkotlin.chapter02.v1.factory
 import com.ysjleader.tobyspringkotlin.chapter02.v1.login.RestTemplateLoginService
 import com.ysjleader.tobyspringkotlin.chapter02.v1.login.WebClientLoginService
 import com.ysjleader.tobyspringkotlin.chapter02.v1.user.UserService
-import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
-import javax.annotation.PostConstruct
 
 @Configuration
 class ProfileUserServiceFactoryV2 {

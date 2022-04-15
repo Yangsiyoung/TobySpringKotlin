@@ -2,7 +2,6 @@ package com.ysjleader.tobyspringkotlin.chapter02.practice.calculator.impl
 
 import com.ysjleader.tobyspringkotlin.chapter02.practice.calculator.Calculator
 import org.slf4j.LoggerFactory
-import java.lang.IllegalArgumentException
 
 class SampleCalculator: Calculator {
 

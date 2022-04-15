@@ -1,7 +1,6 @@
 package com.ysjleader.tobyspringkotlin.chapter02.v1
 
 import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.dto.UserDTO
-import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7.factory.ProfileUserServiceFactory
 import com.ysjleader.tobyspringkotlin.chapter01.chater1_1.v7.user.UserService
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeEach
@@ -9,9 +8,7 @@ import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.test.context.SpringBootTest
-import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.test.context.ActiveProfiles
-import org.springframework.test.context.TestPropertySource
 
 
 @ActiveProfiles(value = ["unittest"])
