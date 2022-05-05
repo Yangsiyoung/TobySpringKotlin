@@ -1,15 +1,10 @@
-package com.ysjleader.tobyspringkotlin.chapter03.template_method
+package com.ysjleader.tobyspringkotlin.chapter03.composition.converter.impl
 
+import com.ysjleader.tobyspringkotlin.chapter03.composition.converter.DtoConverter
 import com.ysjleader.tobyspringkotlin.chapter03.domain.User
 import com.ysjleader.tobyspringkotlin.chapter03.dto.UserDTO
-import com.ysjleader.tobyspringkotlin.chapter03.repository.UserRepository
 
-class UserService(
-    userRepository: UserRepository
-): AbstractUserService(
-    userRepository = userRepository
-) {
-
+class ConstructorDtoConverter : DtoConverter {
     override fun convertToUser(userDTO: UserDTO): User {
         return User(
             userId = userDTO.userId,
